@@ -1,0 +1,347 @@
+body{
+    background-color:Aliceblue;
+    }
+video {position: absolute;
+    top:110%;
+    left:69.6%;
+    width: 30%;
+    height: 20%;}
+*
+{
+margin: 0px;
+padding: 0px;}
+#menu ul
+{
+
+  list-style:none;
+}
+#menu ul li
+{
+    
+   background-color: red;
+    border: 1px solid white;
+    width : 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: left;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#menu ul li a:hover
+{
+ background-color: green; 
+}
+#menu ul ul
+{
+position: absolute;
+display: none;
+}
+#menu ul li:hover>ul
+{
+display: block;
+}
+#menu ul ul ul
+{
+margin-left: 140px;
+top: 74px;
+}
+.line 1{
+}
+@-webkit-keyframes change1
+{
+    5%{color: darkgoldenrod;}
+    15%{color:crimson;}
+25%{color:white;}r
+35%{color:pink;}
+    45%{color: darkgoldenrod;}
+    55%{color: deeppink;}
+    65%{color: firebrick;}
+75%{color:yellow;}
+    85%{color: darkseagreen;}
+    95%{color: orange;}
+    100%{color:darkolivegreen;}
+}
+figure img {
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  border-radius: 5px;
+ 
+}
+figure img:hover
+{
+    
+    opacity: 0.6;
+ -moz-transform: scale(5.7);
+ -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+}
+header{
+    background: black;
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 40px;
+  }
+header h1{
+    display: inline;
+    font-family: 'oswald' ,sans-serif;
+    font-weight: 400px;
+    font-size: 33px;
+    float:left;
+    margin-top: 0px;
+    margin-right: 10px;
+    height: 60px;
+}
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+nav ul li a:
+{
+   color: white;
+    text-decoration: none;
+   }
+#manas{
+    font-family: 'Montserrat',sans-serif;
+}
+.homered{
+    background-color:RED;
+    padding: 24px 10px 16px 10px;
+}
+.divider{
+    background-color: red;
+    height: 5px;
+}
+.homeblack:hover{
+    background-color:red;
+     padding: 24px 11px 18px 15px;
+     font-weight: 1000px;
+    text-decoration: underline;
+     }
+.image1{
+    background-image: url(images/mclaren_570s_spider_2018_5k-1280x720.jpg);
+ height: 900px;
+    width: auto;
+
+    background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0px;
+}
+.secondhead{
+    font-family: 'Raleway',sans-serif;
+    font-style: oblique;
+    color:yellow;
+    padding: 45px 20px 7px 50px;
+   margin: 0% 0% 0% 3%;
+    font-size: 30px;
+    background-color: rgba(10,10,5,0);
+    display: inline-block;
+    }
+.thirdhead{
+    font-family: 'Raleway',sans-serif;
+    font-style: oblique;
+    color:yellow;
+     padding: 0px 5px;
+    margin: 0% 0% 0% 23%;    
+}
+.login box{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    color:aliceblue#fff;
+    top:50%;
+    bottom: 50%;
+    box-sizing: border-box;
+    }
+h4{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 10%;
+    padding: 0 0 20px;
+    text-align: right;
+    font-size: 25px;
+    color: aqua;
+}
+.login-box p{
+   margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 20%;
+    padding: 0 0 20px;
+    font-weight: bold;
+    text-align: right;
+    color:darkgreen;
+}
+.login-box input[type="text"]
+{
+    border :none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+
+    padding: 15 500 0px;
+    height: 40px;
+    color:#fff;
+    font-size: 15px;
+      margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 50%;
+    }
+.login-box input[type="password"]
+{
+     border :none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline:inherit;
+    height: 40px;
+    color:#fff;
+    font-size: 15px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: -25%;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Raleway',sans-serif;
+ 
+}                  
+ul{
+    list-style: none;
+}
+#login-form .field {
+	height:23px;
+	width:100%;
+	overflow:hidden;
+}
+#login-form label {
+	color:#fff;
+	font-weight:bold;
+	float:left;
+	width:93px;
+}
+#login-form label.extra {
+	font-weight:normal;
+}
+#login-form .field input {
+	border:1px solid #115bbe;
+	padding:1px 3px 1px 3px;
+	width:107px;
+	float:right;
+}
+#login-form input.extra {
+	width:12px;
+	height:12px;
+	padding:0;
+	float:left;
+	margin-top:2px;
+}
+#login-form .field1 {
+	padding-top:5px;
+	height:28px;
+}
+#login-form .field1 a {
+	text-decoration:none;
+	display:inline-block;
+	float:right;
+	color:#35b3d8;
+	cursor:pointer;
+	margin-top:-4px;
+
+}
+#login-form .field1 a em {
+	display:inline-block;
+	padding:0 5px;
+
+}
+#login-form .field1 a b {
+	font-style:normal;
+	display:inline-block;
+
+	padding:4px 11px 4px 11px;
+}
+#login-form .field1 a span {
+	color:#fff;
+	display:block;
+	margin:-17px 0 0 -1px;
+}
+#login-form .field1 a:hover {
+	color:#0f56ba;
+}
+#login-form ul {
+	width:100%;
+	left:-18px;
+	position:relative;
+}
+#login-form ul li {
+	padding:0 0 6px 18px;
+
+}
+#login-form ul li.last {
+	padding-bottom:0;
+}
+#login-form ul li a {
+	color:#c1f0ff;
+}
+.box {
+	background:#fff;
+	width:100%;
+	margin-bottom:20px;
+}
+.box .border-bot {
+
+}
+
+
+
+.box .inner {
+	padding:0 0 10px 21px;
+}
+.heading{
+    color: green;
+
+    font-size: 45px;
+margin-left: 3%;
+    margin-top: 2%;
+    display:inline-block;
+font-family: 'Raleway',sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+body
+{
+    background:url(images/astronomy-beautiful-constellations-813269.jpg);
+}
+.heading top{
+    font-size: 15px;
+}
+h2 { 
+    display: block;
+    font-size: 30px;
+	color:grey;
+    margin-top: 0.61em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+h3{ 
+    display: block;
+    font-size: 25px;
+    margin-top: 0.61em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 10px;
+}
+h4 { 
+    display: block;
+    font-size: 20px;
+	color:yellow;
+    margin-top: 0.61em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+p1 { 
+    display: block;
+    font-size: 20px;
+	color:white;
+    margin-top: 0.61em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+}
+.vertical-menu {
+    width: 280px; /* Set a width if you like */
+}
+.vertical-menu a {
+    color:darkseagreen; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: None; /* Remove underline from links */
+	font-family: 'Jua', sans-serif;
+font-family: 'Monoton', cursive;
+}
+.vertical-menu a:hover {
+    background-color: green; /* Dark grey background on mouse-over */
+}
+.vertical-menu a.active {
+    background-color: blue; /* Add a green color to the "active/current" link */
+    color: white;
+ }
+.vertical-menu {
+    height: 300px;
+	/*position:;top:10%;left:0%;
+    overflow-y: ;*/
+	margin-top:4%;
+    }
+.c
+{
+color: white;
+background-color: dimgrey;
+/*position:absolute;top:10%;left:18%;right:25%;*/
+margin-left:20%;
+margin-right:25%;
+margin-top:-20%;
+}
+.d
+{
+color:white;
+position:fixed;top:13%;left:78%;
+    text-decoration: none;
+}
+.d a:hover
+{
+    display: block;
+	background-color:green;
+    text-decoration: none;
+}
